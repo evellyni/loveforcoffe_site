@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+:root {
+    --font-principal: 'Lora' , serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-principal);
+}
+
+nav {
+    background-color: #F1DEC9;
+}
+
+header {
+    background-color: #A4907C;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav h1{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul.right li {
+    float: right;
+    padding-right: 5px; 
+    margin-top: 10px;
+}
+
+nav ul.right li a { 
+    color: black;
+    padding: 7px 5px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.navegador {
+    float: right;
+}
+
+ul.navegador li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li {
+    transition: .5s;
+}
+
+ul.navegador:hover li {
+    filter: blur(2px);
+}
+
+ul.navegador li:hover {
+    filter: blur(0px);
+}
+
+ul.navegador li a {
+    color: #f1dec9;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1160px;
+    max-width: 100%;
+    margin-left: 220px;
+    margin-top: 45px;
+}
+
+.col-6 texto {
+    
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 24.99%;
+    float: left;
+}
+.col-4 {
+    width: 33.32%;
+    float: left;
+} 
+.col-5 {
+    width: 41.65%;
+    float: left;
+}
+.col-6 {
+    width: 49.98%;
+    float: left;
+}
+.col-7 { 
+    width: 58.31%;
+    float: left;
+}
+.col-8 {
+    width: 66.64%;
+    float: left;
+}
+.col-9 {
+    width: 74.97%;
+    float: left;
+}
+.col-10{
+    width: 83.3%;
+    float: left
+}
+.col-11{
+    width: 91.63%;
+    float: left;
+}
+.col-12{
+    width:99.96%;
+    float: left;
+}
